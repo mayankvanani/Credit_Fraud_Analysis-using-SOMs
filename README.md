@@ -12,6 +12,7 @@ The Dataset taken from **UCI machine learning repository called _"Statlog (Austr
 
 _NOTE: The credentials ofthe customers have been encoded._
 
-## FRAUD DETECTION
+## Fraud Detection
+<img src="graph.png" width="540" alt="Original">
 
-## FRAUD PREDICTION
+## Fraud Prediction
