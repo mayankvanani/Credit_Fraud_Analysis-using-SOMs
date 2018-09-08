@@ -17,10 +17,23 @@ _NOTE: The credentials ofthe customers have been encoded._
 * No. of. Features (input_len) = 15
 * Learning Rate = 0.5
 
-FREQUENCY MAP OBTAINED IS SHOWN BELOW.
-
 <img src="Frequency_Map.png" width="540" alt="Original">
 
+* Higher the **MID - Mean Inter-neuron Distance** , farther it is from the **BMU - Best Matching Unit** of a sub-group.
+* Lower MID - Highest MID :: Black (0) - White (1). So _White boxes are outliers._
+* **Red Circle** are the datapoints representing the customers that got approval provided that they has cheated
+* **Green Squares** are the datapoints representing the customers that didn't got approval.
+
+* Customers that Commited Fruad are represented by **White Squares containing Red Circle**. It may or may not contain Green Square. 
+
+* _Result: Obtained a matrix **[690 x 1]** containing **1s** against the customers identified as frauds while **0s** against the rest._
 
 
 ## Fraud Prediction
+Using Artificial Neural Network to predict how likely is the customer to indulge forgery.<br/>
+Features : All the columns of the dataset<br/>
+Labels: Result obtained from the _Fraud_Detection.py_ <br/>.
+
+**HyperParameters**
+* epochs = 10
+* batch_size = 23 
