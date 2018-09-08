@@ -13,6 +13,14 @@ The Dataset taken from **UCI machine learning repository called _"Statlog (Austr
 _NOTE: The credentials ofthe customers have been encoded._
 
 ## Fraud Detection
-<img src="graph.png" width="540" alt="Original">
+* 2D Neuron Lattice = 10 X 10 
+* No. of. Features (input_len) = 15
+* Learning Rate = 0.5
+
+FREQUENCY MAP OBTAINED IS SHOWN BELOW.
+
+<img src="Frequency_Map.png" width="540" alt="Original">
+
+
 
 ## Fraud Prediction
