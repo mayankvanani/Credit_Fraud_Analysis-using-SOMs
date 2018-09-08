@@ -22,7 +22,6 @@ som = MiniSom(x=10, y=10, input_len=15, sigma=1.0, learning_rate=0.5)
 # x, y = dimension of the 2-D Neuron Lattice. Choice is arbitrary. 
 # input_len = no. of feature in dataset-X. X contains 14+1=15.
 # sigma = radius of different neighbourhoods in the grid. Its default value is 1.0
-# learning_rate = its a hyperparameter that decides by how much the weights will be updated.
 som.random_weights_init(X)  # randomly initialising the weights.
 som.train_random(data=X, num_iteration=100)
 
@@ -48,7 +47,7 @@ show()
 
 ## Finding the Frauds
 mappings = som.win_map(X)  
-frauds = np.concatenate((mappings[(7,1)], mappings[(1,4)]), axis=0)
+frauds = mappings[(4,3)]
 frauds = scale_X.inverse_transform(frauds)
 
 
