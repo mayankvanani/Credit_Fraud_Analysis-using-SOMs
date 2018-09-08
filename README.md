@@ -31,8 +31,8 @@ _NOTE: The credentials ofthe customers have been encoded._
 
 ## Fraud Prediction
 Using Artificial Neural Network to predict how likely is the customer to indulge forgery.<br/>
-Features : All the columns of the dataset<br/>
-Labels: Result obtained from the _Fraud_Detection.py_ <br/>.
+_Features : All the columns of the dataset<br/>_
+_Labels: Result obtained from the _Fraud_Detection.py_ <br/>._
 
 **HyperParameters**
 * epochs = 10
