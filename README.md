@@ -17,7 +17,7 @@ _NOTE: The credentials ofthe customers have been encoded._
 * No. of. Features (input_len) = 15
 * Learning Rate = 0.5
 </br>
-**Frequency Map**
+</t>**Frequency Map**
 <img src="Frequency_Map.png" width="540" alt="Original">
 
 * Higher the **MID - Mean Inter-neuron Distance** , farther it is from the **BMU - Best Matching Unit** of a sub-group.
